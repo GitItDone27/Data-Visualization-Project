@@ -51,7 +51,8 @@ app.layout = html.Div([
             value='Select-Year',
             placeholder='Select-Year',
         )),
-    html.Div([#TASK 2.3: Add a division for output display
+    #TASK 2.3: Add a division for output display
+    html.Div([
     html.Div(id='output-container', className='chart-grid', style={'flex'}),])
 ])
 
